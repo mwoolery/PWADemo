@@ -1,12 +1,11 @@
-{
-    
-  "short_name": "Matt W.",
+{ 
+  "short_name": "Matt W",
   "name": "Matthew Woolery Resume",
   "icons": [
     {
       "src": "/images/profile/android/mipmap-xxxhdpi/ic_launcher.png",
       "type": "image/png",
-      "sizes": "144x144"
+      "sizes": "192x192"
     },
     {
       "src": "/images/profile/android/playstore-icon.png",
@@ -14,9 +13,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "matthewwooleryresume.com",
+  "start_url": "https://mwoolery.github.io/PWADemo/",
   "background_color": "#006A4E",
   "display": "standalone",
-  "scope": "/matthewwooleryresume/",
+  "scope": "https://mwoolery.github.io/PWADemo/",
   "theme_color": "#3367D6"
 }

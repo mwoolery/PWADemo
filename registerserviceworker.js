@@ -14,6 +14,6 @@ const isIos = () => {
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('./service-worker.js')
+             .register('./serviceworker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
