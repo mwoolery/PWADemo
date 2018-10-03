@@ -6,8 +6,8 @@ var dataCacheName = 'mycache';
 var cacheName = 'mycache';
 //list of files to add to the cache
 var filesToCache = [
-  '/',
-  '/index.html'
+  './index.html',
+  './offline.html',
  
 ];
 //install event, succeeds if the service worker successfully
