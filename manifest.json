@@ -4,12 +4,12 @@
   "name": "Matthew Woolery Resume",
   "icons": [
     {
-      "src": "/images/icons-192.png",
+      "src": "/images/profile/android/mipmap-xxxhdpi/ic_launcher.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "144x144"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "/images/profile/android/playstore-icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }

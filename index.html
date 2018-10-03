@@ -52,7 +52,7 @@
   <main class="container content ">
 
     <div class="main-heading d-flex flex-wrap ">
-      <img src="images/northwestlogo.jpg " alt="Northwest Logo " class="img-thumbnail" border="0">
+      <img src="/images/profile/android/mipmap-xxxhdpi/ic_launcher.png" alt="Matthew Woolery " class="img-thumbnail" border="0">
       <h1 class="mt-5 ">Matthew Woolery Resume</h1>
     </div>
     <br/>
@@ -64,9 +64,9 @@
   <footer class="footer ">
     <div class="container ">
       <span class="text-muted ">
-        <a target="_blank" href="https://www.linkedin.com/in/denisecase/">Denise Case </a>&nbsp; &#9670; &nbsp;
-        <a target="_blank" href="https://profcase.github.io/44-691-gdp1-syllabus" target="_blank">Webpage</a> &nbsp; &#9670; &nbsp;
-        <a target="_blank" href="https://github.com/profcase/44-691-gdp1-syllabus" target="_blank">Source</a>
+        <a target="_blank" href="">Linkedin </a>&nbsp; &#9670; &nbsp;
+        <a target="_blank" href="" target="_blank">Webpage</a> &nbsp; &#9670; &nbsp;
+        <a target="_blank" href="https://github.com/mwoolery/PWADemo" target="_blank">Source</a>
       </span>
     </div>
   </footer>
@@ -81,42 +81,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
     crossorigin="anonymous"></script>
   <script src="vendor/mark.min.js"></script>
-  <script> $(function () {
-
-  const found = new Mark(".content");
-  const inputElement = $("input[type='text']");
-  const btnClear = $("#reset");
-  const btnCount = $("#count");
-
-  /**
-  * Assign clear handler
-  */
-  btnClear.on("click", function () {
-    inputElement.val("").focus()
-    found.unmark()
-  })
-
-  /**
-   * Search on input
-   */
-  inputElement.on("input", function () {
-    const searchVal = this.value;
-    found.unmark({
-      done: () => {
-        found.mark(searchVal, {
-          separateWordSearch: true,
-          done: (counter) => {
-            btnCount.html(counter.toString())
-          }
-        })
-      }
-    })
-  })
-
-
-})
-</script>
- <script src="/registerserviceworker.js" async></script>
+  
+ <script src="registerserviceworker.js" async></script>
 </body>
 
 </html>
