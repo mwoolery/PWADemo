@@ -1,6 +1,6 @@
 { 
-  "short_name": "Matt W",
   "name": "Matthew Woolery Resume",
+  "short_name": "Matt W",
   "icons": [
     {
       "src": "/images/profile/android/mipmap-xxxhdpi/ic_launcher.png",
@@ -13,9 +13,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://mwoolery.github.io/PWADemo/",
+  "start_url": "/index.html",
   "background_color": "#006A4E",
   "display": "standalone",
-  "scope": "https://mwoolery.github.io/PWADemo/",
   "theme_color": "#3367D6"
 }
