@@ -17,6 +17,47 @@
   <!-- Custom styles for this template -->
 
   <link rel="manifest" href="./manifest.json">
+  <style>
+  /*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+  
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+</style>
 </head>
 
 <body>
@@ -37,26 +78,42 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/MatthewWooleryResume.pdf">Download Resume
+            <a class="nav-link" href="/PWADemo/MatthewWooleryResume.pdf">Download Resume
               <span class="sr-only"></span>
             </a>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="count" disabled>0</button>
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="reset">&olarr;</button>
-        </form>
+       
       </div>
     </nav>
   </header>
 
   <main class="container content ">
-
-    <div class="main-heading d-flex flex-wrap ">
-      <img src="./images/icon-192.png" alt="Matthew Woolery " class="img-thumbnail" border="0">
-      <h1 class="mt-5 ">Matthew Woolery Resume</h1>
+    <br/>
+    <br/>
+    <!--
+    <div class="Row">
+      
+      <div class = "col">
+     <img src="./images/icon-192.png" alt="Matthew Woolery " class="img-thumbnail" border="0">
+      </div>
+      <div class = "col">
+        <h1>Matthew Woolery</h1>
+        <h1>6605415507</h1>
+        </div>
     </div>
+  -->
+    <div class="section group">
+        <div class="col span_1_of_2"style>
+            <img src="./images/icon-192.png" alt="Matthew Woolery " class="img-thumbnail" border="0">
+        </div>
+        <div class="col span_1_of_2">
+            <h1>Matthew Woolery</h1>
+            <h3>mwoolery@nwmissouri.edu</h3>
+            <h3>6605415507</h3>
+        </div>
+      </div>
+    
     <br/>
     <br/>
 
@@ -71,12 +128,12 @@
     <div class="entry">
       <h2>EDUCATION</h2>
       <div class="content">
-        <h3>Sep 2014 - Apr 2017</h3>
+        <h5>Sep 2014 - Apr 2017</h5>
         <p>Northwest Missouri State University -- Maryville, MO <br />
           <em>Bachelor of Science in Computer Science</em></p>
       </div>
       <div class="content">
-        <h3>Aug 2017 - May 2019</h3>
+        <h5>Aug 2017 - May 2019</h5>
         <p>Northwest Missouri State University -- Maryville, MO  <br />
           <em>Master of Science in Applied Computer Science</em></p>
       </div>
@@ -86,61 +143,50 @@
     <div class="entry">
       <h2>EXPERIENCE</h2>
       <div class="content">
-        <h3>May 2009 - Feb 2010</h3>
-        <p>Agency Creative, London <br />
-          <em>Senior Web Designer</em></p>
+        <h5>May 2014 - July 2017</h5>
+        <p>Walmart - Maryville, MO <br />
+          <em>Cap Team 2 Supervisor</em></p>
         <ul class="info">
-          <li>Vestibulum eu ante massa, sed rhoncus velit.</li>
-          <li>Pellentesque at lectus in <a href="#">libero dapibus</a> cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
+          <li>Managed team of 10 employees through unloading and stocking processes.</li>
+          <li>Operated Powered Lifting Equipment such as Electric Pallet Jack, Forklift, Walkie Stacker, and Scizzor Lifts</li>
         </ul>
       </div>
       <div class="content">
-        <h3>Jun 2007 - May 2009</h3>
-        <p>Junior Web Designer <br />
-          <em>Bachelor of Science in Graphic Design</em></p>
+        <h5>August 2018 - May 2019</h5>
+        <p>Missouri Academy of Science, Mathematics, and Computing <br />
+          <em>Residential Counselor</em></p>
         <ul class="info">
-          <li>Sed fermentum sollicitudin interdum. Etiam imperdiet sapien in dolor rhoncus a semper tortor posuere. </li>
-          <li>Pellentesque at lectus in libero dapibus cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
-        </ul>
+          <li>Provided support to students to ensure their academic success. </li>
+          <li>Oversee academic clubs, manage finances, and transported students to competitions </li>
+          <li>Worked directly with 19 students and provided support to ensure that they will successfully graduate from the program. </li>
+          </ul>
+      </div>
+      <div class="content">
+        <h5>May 2016 - Aug 2016</h5>
+        <p>Kansas City Power and Light <br />
+          <em>Application Programmer/Analyst Intern</em></p>
+        <ul class="info">
+          <li>Worked with different the company’s different organizational groups to create or maintain applications that fit their business needs. </li>
+          <li>Worked with other members of the Web Team to perform their change control process. </li>
+          <li>Used HTML, CSS, JavaScript, ColdFusion, Oracle SQL, and ASP to create web apps.  Some exposure to SharePoint, PeopleSoft, and Oracle ODI were secondary assignments</li>
+          </ul>
       </div>
     </div>
     <!-- End 3rd Row -->
     <!-- Begin 4th Row -->
     <div class="entry">
-      <h2>SKILLS</h2>
+      <h2>TECHNICAL SKILLS</h2>
       <div class="content">
-        <h3>Software Knowledge</h3>
-        <ul class="skills">
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-          <li>InDesign</li>
-          <li>Flash</li>
-          <li>Fireworks</li>
-          <li>Dreamweaver</li>
-          <li>After Effects</li>
-          <li>Cinema 4D</li>
-          <li>Maya</li>
-        </ul>
-      </div>
-      <div class="content">
-        <h3>Languages</h3>
-        <ul class="skills">
-          <li>CSS/XHTML</li>
-          <li>PHP</li>
-          <li>JavaScript</li>
-          <li>Ruby on Rails</li>
-          <li>ActionScript</li>
-          <li>C++</li>
-        </ul>
-      </div>
-    </div>
-    <!-- End 4th Row -->
-     <!-- Begin 5th Row -->
-    <div class="entry">
-    <h2>WORKS</h2>
-      <ul class="works">
         
-      </ul>
+        <ul class="skills">
+          <li>HTML/CSS/Javascript</li>
+          <li>.NET</li>
+          <li>Hadoop</li>
+          <li>Python</li>
+          <li>Swift</li>
+          <li>C#</li>
+        </ul>
+      </div>
     </div>
   
   </main>
