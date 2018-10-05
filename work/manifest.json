@@ -1,0 +1,20 @@
+{ 
+  "name": "Matthew Woolery Resume",
+  "short_name": "Matt W",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/PWADemo/",
+  "background_color": "#006A4E",
+  "display": "standalone",
+  "theme_color": "#3367D6"
+}

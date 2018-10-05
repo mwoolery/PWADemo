@@ -1,3 +1,5 @@
+/* STEP 5 SETUP AND INSTALL OF SERVICE WORKER
+
 
 // offline page for 
 const offlinePage = '/offline.html';
@@ -24,6 +26,11 @@ self.addEventListener('install', function(e) {
   );
 });
 
+
+*/
+
+
+/* Step 6
 // activate the service worker
 self.addEventListener('activate', function(e) {
   console.log('[ServiceWorker] Activate');
@@ -45,7 +52,10 @@ self.addEventListener('activate', function(e) {
   return self.clients.claim();
 });
 
+*/ 
 
+
+/*  STEP 7 FETCH REQUEST
 // intercept and handle requests
 self.addEventListener('fetch', (event) => {
     //listening for GET's
@@ -73,3 +83,4 @@ self.addEventListener('fetch', (event) => {
   }
   return;
 });
+*/
